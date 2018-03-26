@@ -8,7 +8,7 @@ def second_challenge
 
   #code your solution here!
 
-  everything = groceries.values.join
+  everything = groceries.values.join(" ,")
 
   everything
 
