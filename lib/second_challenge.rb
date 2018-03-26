@@ -8,15 +8,13 @@ def second_challenge
 
   #code your solution here!
 
-  #everything = groceries.values.combine
-
-
-
   everything = []
-groceries.each do |item, value|
-    everything.concat(value)
-end
 
-  everything
+  groceries.each do |item, value|
+    everything.concat(value)
+  end
+
+  puts everything
+
 
 end
