@@ -12,4 +12,9 @@ def second_challenge
 
   everything
 
+  everything = []
+  groceries.each do |item, value|
+    everything.concat(item)
+end
+
 end
