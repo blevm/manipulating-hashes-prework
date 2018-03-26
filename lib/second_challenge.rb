@@ -8,9 +8,7 @@ def second_challenge
 
   #code your solution here!
 
-  everything = []
-
-  groceries.values.combine
+  everything = groceries.values.combine
 
   everything
 
