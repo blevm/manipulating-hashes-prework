@@ -14,7 +14,7 @@ def second_challenge
 
   everything = []
 groceries.each do |item, value|
-    everything.concat(item)
+    everything.concat(value)
 end
 
   everything
